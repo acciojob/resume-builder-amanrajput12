@@ -1,0 +1,20 @@
+
+
+.footer{
+    position: absolute;
+    bottom: 20px;
+margin-top:20px;
+ display:flex;
+ justify-content: center;
+  left: 40%;
+ gap:10px;
+}
+
+.btn{
+    padding: 5px;
+    background-color: rgb(211, 75, 75);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

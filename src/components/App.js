@@ -1,11 +1,17 @@
 
 import React from "react";
-import './../styles/App.css';
+
+import Header from "./Header/Header";
+import { Outlet } from "react-router-dom";
+import Footer from "./Footer/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div >
         {/* Do not remove the main div */}
+        <Header />
+        <Outlet/>
+        <Footer/>
     </div>
   )
 }
